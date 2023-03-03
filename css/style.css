@@ -1,3 +1,5 @@
+/*////////////////// GLOBAL //////////////////////// */
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -13,21 +15,96 @@ a {
     color: #fff;
 }
 
+.link {
+    transition: all .3s;
+}
 
+.link:hover {
+    color: #68727f;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+.sign-up-btn {
+    display: inline-block;
+    background-color: #3882f6;
+    padding: 8px 30px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.sign-up-btn:hover {
+    background-color: #fff;
+    color: #3882f6;
+
+}
+
+
+/* ////////////////////// MAIN ///////////////////// */
 
 .container {
+    max-width: 1240px;
+    padding: 0 20px;
+    margin: 0 auto;
 }
+
+header {
+    background-color: #1F2937;
+    padding: 20px 0;
+}
+
 .header_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-.headerlogo {
+
+.header_logo {
+    font-size: 24px;
+    font-weight: bold;
 }
+
 .header_links {
+    display: flex;
+    gap: 20px;
+    
+}.header_links a {
+    color: #E5E7EB;
 }
+
+
 .header_content {
+    display: flex;
+    justify-content: space-between;
+    padding: 15vh 0;
+    color: #E5E7EB;
+
+    
 }
+
 .header_content-desc {
+    max-width: 450px;
 }
-.sign-up-btn {
+
+.header_content-desc * {
+    margin-bottom: 10px;
 }
+
+.header_content-desc h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+
 .header_content_image {
+    flex: 0 1 650px;
+}
+
+.header_content_image img {
+    width: 100%;
+    height: 250px;
 }
