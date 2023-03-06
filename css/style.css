@@ -144,5 +144,24 @@ header {
     width: 100%;
     
 }
-.card_text {
+
+/* ////////////////////// Quote ///////////////////// */
+
+.quote {
+    background-color: #E5E7EB;
+}
+.quote .container {
+    padding: 100px 150px;
+}
+.cite blockquote {
+    font-weight: 300;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.cite p {
+    font-size: 24px;
+    font-weight: 900;
+    text-align: end;
 }
