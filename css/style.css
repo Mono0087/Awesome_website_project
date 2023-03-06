@@ -41,8 +41,12 @@ body {
     color: #3882f6;
 }
 
-.btn-revert{
+.btn-revert {
     border: 2px solid;
+}
+
+header, footer {
+    background-color: #1F2937;
 
 }
 
@@ -55,7 +59,6 @@ body {
 }
 
 header {
-    background-color: #1F2937;
     padding: 20px 0;
 }
 
@@ -73,8 +76,10 @@ header {
 .header_links {
     display: flex;
     gap: 20px;
-    
-}.header_links a {
+
+}
+
+.header_links a {
     color: #E5E7EB;
 }
 
@@ -85,7 +90,7 @@ header {
     padding: 15vh 0;
     color: #E5E7EB;
 
-    
+
 }
 
 .header_content-desc {
@@ -119,33 +124,38 @@ header {
     text-align: center;
     padding: 70px 0 100px;
 }
+
 .info_title {
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
     margin-bottom: 70px;
 }
+
 .info_cards {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     row-gap: 30px;
-    
+
 }
+
 .card {
     max-width: 230px;
 }
+
 .card_image {
     overflow: hidden;
     border: 5px solid #3882f6;
     border-radius: 15px;
     height: 230px;
     margin-bottom: 10px;
-    
+
 }
+
 .card_image img {
     width: 100%;
-    
+
 }
 
 /* ////////////////////// QUOTE ///////////////////// */
@@ -154,9 +164,11 @@ header {
     background-color: #E5E7EB;
     padding: 100px 0;
 }
+
 .quote .container {
     padding: 0 150px;
 }
+
 .cite blockquote {
     font-weight: 300;
     font-size: 36px;
@@ -179,13 +191,23 @@ header {
 .action_box {
     background-color: #3882f6;
     border-radius: 15px;
-    padding: 70px 170px;
+    padding: 50px 170px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     row-gap: 30px;
 }
+
 .box-text {
     color: #fff;
+}
+
+
+/* ////////////////////// FOOTER ///////////////////// */
+
+footer {
+    padding: 30px 0;
+    color: #fff;
+    text-align: center;
 }
