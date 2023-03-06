@@ -39,9 +39,12 @@ body {
 .sign-up-btn:hover {
     background-color: #fff;
     color: #3882f6;
-
 }
 
+.btn-revert{
+    border: 2px solid;
+
+}
 
 /* ////////////////////// HEADER ///////////////////// */
 
@@ -145,13 +148,14 @@ header {
     
 }
 
-/* ////////////////////// Quote ///////////////////// */
+/* ////////////////////// QUOTE ///////////////////// */
 
 .quote {
     background-color: #E5E7EB;
+    padding: 100px 0;
 }
 .quote .container {
-    padding: 100px 150px;
+    padding: 0 150px;
 }
 .cite blockquote {
     font-weight: 300;
@@ -164,4 +168,24 @@ header {
     font-size: 24px;
     font-weight: 900;
     text-align: end;
+}
+
+/* ////////////////////// ACTION ///////////////////// */
+
+.action {
+    padding: 100px;
+}
+
+.action_box {
+    background-color: #3882f6;
+    border-radius: 15px;
+    padding: 70px 170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 30px;
+}
+.box-text {
+    color: #fff;
 }
